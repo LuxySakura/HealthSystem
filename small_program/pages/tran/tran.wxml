@@ -1,0 +1,22 @@
+<!--pages/tran/tran.wxml-->
+<view class="page-body">
+  <view class="page-section">
+    <view class="weui-cells__title">交易信息</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" auto-focus placeholder="输入交易信息"/>
+      </view>
+    </view>
+  </view>
+<view class="page-section">
+    <view class="weui-cells__title">输入支付金额</view>
+    <view class="weui-cells weui-cells_after-title">
+      <view class="weui-cell weui-cell_input">
+        <input class="weui-input" type="number" placeholder="输入支付金额" />
+      </view>
+    </view>
+</view>
+<view class="sendMessage">
+    <button bindtap="sendTransaction">发送交易</button>
+</view>
+</view>

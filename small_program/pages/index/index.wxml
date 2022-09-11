@@ -1,0 +1,18 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+  <view class="sendMessage">
+    <button bindtap="sendMessage">发送交易</button>
+  </view>
+  <view>
+    <button bindtap="recieveMessage">接收交易</button>
+  </view>
+  <view>
+    <button bindtap="setLocation">设置地址</button>
+  </view>
+  <view>
+    <button bindtap="checkLotus">核对行程</button>
+  </view>
+</view>
